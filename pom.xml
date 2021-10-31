@@ -8,4 +8,11 @@
 
   <name>Maven checkstyle project</name>
   <url>https://github.com/thesvistun/maven-checkstyle</url>
+
+  <distributionManagement>
+     <repository>
+       <id>github-maven-checkstyle</id>
+       <url>https://maven.pkg.github.com/thesvistun/maven-checkstyle</url>
+     </repository>
+  </distributionManagement>
 </project>
